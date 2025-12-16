@@ -1,128 +1,107 @@
-# 3I Digital - Landing Page
+# 3I Digital - Managed Digital Presence
 
-A professional landing page for 3I Digital, a managed digital presence agency serving Australian businesses.
+A Next.js landing page for 3I Digital, a managed digital presence service for tech founders and small business owners.
+
+## Features
+
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
+- **React 19** components
+- Fully responsive design
+- Mobile-first approach
+- Minimal, trust-building design
+- Component-based architecture
 
 ## Project Structure
 
 ```
 3idigital/
-├── index.html              # Main HTML file
-├── css/
-│   └── styles.css          # Main stylesheet with design system
-├── js/
-│   └── main.js             # Main JavaScript file
-├── assets/
-│   ├── images/             # Image assets (logos, photos, screenshots)
-│   ├── icons/              # Icon assets (SVG preferred)
-│   └── fonts/              # Custom fonts (currently using Google Fonts)
-├── CLAUDE.md               # Project instructions for Claude Code
-├── prompt.txt              # Complete requirements specification
-├── todo.txt                # Development task checklist
-└── README.md               # This file
+├── app/
+│   ├── layout.tsx       # Root layout
+│   ├── page.tsx         # Home page
+│   ├── globals.css      # Global styles
+│   └── favicon.ico      # Favicon
+├── components/
+│   ├── Navigation.tsx   # Header navigation
+│   ├── Hero.tsx         # Hero section
+│   ├── Problems.tsx     # Problems section
+│   ├── WhatWeManage.tsx # Services overview
+│   ├── WhoItsFor.tsx    # Target audience
+│   ├── HowItWorks.tsx   # Process steps
+│   ├── About.tsx        # About section
+│   ├── Services.tsx     # Included services
+│   ├── Contact.tsx      # Contact form
+│   └── Footer.tsx       # Site footer
+├── public/
+│   └── images/          # Static images
+├── tailwind.config.ts   # Tailwind configuration
+├── tsconfig.json        # TypeScript config
+└── package.json         # Dependencies
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Code editor (VS Code recommended)
-- Local development server (optional but recommended)
+- Node.js 18+ and npm
 
-### Local Development
+### Installation
 
-1. **Clone or download the project**
+```bash
+# Install dependencies
+npm install
+```
 
-2. **Open with a local server** (recommended):
+### Development
 
-   Using Python:
-   ```bash
-   python -m http.server 8000
-   ```
+```bash
+# Start development server
+npm run dev
+```
 
-   Using Node.js (with `http-server`):
-   ```bash
-   npx http-server
-   ```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-   Using VS Code Live Server extension:
-   - Install "Live Server" extension
-   - Right-click on `index.html`
-   - Select "Open with Live Server"
+### Build for Production
 
-3. **Or simply open index.html** directly in your browser (some features may not work without a server)
+```bash
+# Build the application
+npm run build
 
-## Design System
+# Start production server
+npm start
+```
 
-The project uses a predefined design system with CSS variables:
+### Linting
 
-### Colors
-- **Primary (Navy Blue)**: `#1a365d`
-- **Secondary (Teal)**: `#0891b2`
-- **Accent (Orange)**: `#ea580c`
-- **Success (Green)**: `#16a34a`
+```bash
+npm run lint
+```
 
-### Typography
-- **Headings**: Inter (Google Fonts)
-- **Body**: Open Sans (Google Fonts)
+## Design Principles
 
-### Responsive Breakpoints
-- Mobile: `≤ 768px`
-- Tablet: `769px - 1024px`
-- Desktop: `≥ 1025px`
+- **Minimalist**: Clean, simple, calm design
+- **Trust-first**: No hype, no buzzwords
+- **Mobile responsive**: Built mobile-first
+- **Plain English**: Clear, Australian spelling
+- **Founder-focused**: Speaks directly to tech founders
 
-## Features
+## Tech Stack
 
-### Implemented
-- ✅ Project structure with organized directories
-- ✅ Base HTML template with meta tags and SEO setup
-- ✅ CSS design system with variables
-- ✅ JavaScript utilities for forms, animations, and interactions
-- ✅ Mobile-first responsive foundation
+- [Next.js](https://nextjs.org/) - React framework
+- [React](https://react.dev/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
 
-### To Be Implemented
-- Hero section with primary CTA
-- All 12 page sections (see CLAUDE.md)
-- Free Digital Audit form with validation
-- Sticky navigation with scroll effects
-- Scroll animations and parallax effects
-- Cookie consent banner
-- WCAG 2.1 AA accessibility compliance
-- Performance optimisation (lazy loading, WebP images)
+## Migration Notes
 
-## Development Guidelines
+This project was migrated from a single HTML file to a modern Next.js application while maintaining:
+- All original content and sections
+- Design principles and tone
+- Responsive behaviour
+- Minimal, trust-building approach
 
-### Australian Spelling
-Use Australian English throughout user-facing content:
-- "optimisation" not "optimization"
-- "colour" not "color"
-- "centre" not "center"
-
-### Accessibility
-- Maintain WCAG 2.1 Level AA compliance
-- Include proper ARIA labels
-- Ensure keyboard navigation works
-- Maintain sufficient colour contrast ratios
-
-### Performance
-- Lazy load images
-- Use WebP format with fallbacks
-- Minify CSS/JS for production
-- Inline critical CSS
-- Use async/defer for scripts
-
-### Content Tone
-- Client-outcome focused (use "you/your")
-- Professional but approachable
-- Confident without being arrogant
-- Avoid jargon or explain technical terms
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+The original `index.html` is kept for reference.
 
 ## Deployment
 

@@ -14,19 +14,21 @@ Key characteristics:
 
 ## Development Commands
 
-This is a single HTML file project with minimal dependencies:
+This is a Next.js application with TypeScript and Tailwind CSS:
 
-- No build process required
-- Open `index.html` directly in a browser to view
-- Uses Tailwind CSS via CDN (no compilation needed)
-- No JavaScript frameworks or complex tooling
+- `npm install` - Install dependencies
+- `npm run dev` - Start development server at http://localhost:3000
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## Architecture & Structure
 
 ### Tech Stack
-- **HTML5**: Semantic markup
-- **Tailwind CSS**: Via CDN for styling
-- **JavaScript**: Minimal/none (only if absolutely required)
+- **Next.js 15**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first styling
+- **React 19**: UI components
 - **Mobile responsive**: Built mobile-first
 
 ### Page Sections (in order)
@@ -86,10 +88,33 @@ When writing or editing copy:
 
 ## Important Files
 
-- `index.html` - The complete single-page website (self-contained)
-- `prompt.txt` - Complete requirements specification
-- `css/styles.css` - Not currently used (Tailwind CDN handles styling)
-- `js/main.js` - Not currently used (minimal JS approach)
+### Core Application Files
+- `app/page.tsx` - Main landing page component
+- `app/layout.tsx` - Root layout with metadata
+- `app/globals.css` - Global styles and Tailwind imports
+
+### Components
+All page sections are modular React components in the `components/` directory:
+- `Navigation.tsx` - Fixed navigation header with mobile menu
+- `Hero.tsx` - Hero section with background image
+- `Problems.tsx` - Three problems founders face
+- `WhatWeManage.tsx` - Services overview
+- `WhoItsFor.tsx` - Target audience fit
+- `HowItWorks.tsx` - Three-step process
+- `About.tsx` - Company information
+- `Services.tsx` - Included/not included services
+- `Contact.tsx` - Contact form with state management
+- `Footer.tsx` - Site footer
+
+### Configuration Files
+- `tailwind.config.ts` - Tailwind configuration with custom primary colors
+- `tsconfig.json` - TypeScript configuration
+- `next.config.ts` - Next.js configuration
+- `package.json` - Dependencies and scripts
+
+### Legacy Files (Reference Only)
+- `index.html` - Original single-page HTML version
+- `prompt.txt` - Original requirements specification
 
 ## Notes
 
