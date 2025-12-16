@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,9 +14,15 @@ export default function Navigation() {
           {/* Logo */}
           <Link
             href="#"
-            className="text-2xl font-bold text-gray-900 hover:text-gray-600 transition-colors"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            3I Digital
+            <Image
+              src="/images/3.png"
+              alt="3I Digital"
+              width={120}
+              height={40}
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

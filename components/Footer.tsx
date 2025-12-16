@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,9 +7,13 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <p className="text-xl font-semibold text-gray-900 mb-3">
-              3I Digital
-            </p>
+            <Image
+              src="/images/3.png"
+              alt="3I Digital"
+              width={120}
+              height={40}
+              className="h-10 w-auto mb-4"
+            />
             <p className="text-gray-600 text-sm">
               Based in Melbourne. Working with teams across Australia.
             </p>

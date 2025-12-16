@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "3I Digital - Managed Digital Presence for Tech Founders",
   description:
     "We manage your digital presence, including web, mobile and social presence so you can focus on growing the business, not managing tools.",
+  icons: {
+    icon: "/images/1.png",
+  },
 };
 
 export default function RootLayout({
