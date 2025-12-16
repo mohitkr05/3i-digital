@@ -1,0 +1,155 @@
+You are a senior frontend engineer and UX designer specialising in calm, trust-first B2B websites for Australian tech founders.
+
+Your task is to build a single, self-contained HTML page for a boutique digital agency called “3I Digital”.
+
+GOAL
+The website’s purpose is NOT marketing or SEO.
+Its purpose is to build trust and make founders feel safe booking a short call.
+
+TARGET AUDIENCE
+- Tech startup founders
+- Small to medium business owners
+- Australian context
+- Time-poor, tool-fatigued, sceptical of marketing hype
+
+TONE
+- Calm
+- Clear
+- Confident
+- Plain English
+- No buzzwords
+- No hype
+- No growth promises
+
+DESIGN PRINCIPLES
+- Minimalist
+- White or very light background
+- Neutral colour palette (grey, charcoal, muted blue)
+- Generous whitespace
+- Simple typography
+- No animations
+- No gradients
+- No stock “growth” imagery
+- No icons unless truly necessary
+
+TECH REQUIREMENTS
+- Generate ONE HTML file only
+- Use semantic HTML5
+- Use Tailwind CSS via CDN
+- No JavaScript frameworks
+- Minimal or no JavaScript (only if absolutely required)
+- Mobile responsive
+- Fast loading
+- Clean, readable markup
+
+PAGE STRUCTURE
+All sections must exist on the same page, in this order:
+
+1. Header / Hero
+2. Problems We Solve
+3. What We Manage
+4. Who It’s For / Who It’s Not For
+5. How It Works
+6. About 3I Digital
+7. Services (Included / Not Included)
+8. Contact
+9. Footer with legal links (Privacy Policy, Terms – placeholders)
+
+CONTENT REQUIREMENTS
+
+HERO SECTION
+Headline:
+"Managed Digital Presence for Tech Founders"
+
+Subheadline:
+"We manage your website and social presence so you can focus on growing the business, not managing tools."
+
+Primary CTA:
+"Book a 20-minute chat"
+
+PROBLEMS SECTION
+List 3 short, founder-relevant problems:
+- Digital presence feels neglected
+- Too many tools to manage
+- No single point of accountability
+
+WHAT WE MANAGE
+Plain list:
+- Website monitoring and updates
+- Social presence management
+- Content scheduling
+- Monthly review and reporting
+- One accountable point of contact
+
+WHO IT’S FOR / NOT FOR
+Two columns:
+GOOD FIT IF YOU:
+- Are a founder or small team
+- Want things handled quietly
+- Don’t want to manage tools
+
+NOT A GOOD FIT IF YOU:
+- Want daily posting
+- Expect growth guarantees
+- Enjoy managing tools yourself
+
+HOW IT WORKS
+Simple 3 steps:
+1. Short discovery call
+2. We take over management
+3. Monthly check-in and adjustments
+
+ABOUT SECTION
+Founder-focused explanation:
+- Why 3I Digital exists
+- Emphasis on being small, hands-on, accountable
+- No fake team or corporate language
+
+SERVICES SECTION
+Clearly separated lists:
+
+INCLUDED:
+- Website uptime and updates
+- Social presence management
+- Content scheduling
+- Monthly review and summary
+- Single point of contact
+
+NOT INCLUDED:
+- Paid advertising
+- SEO growth guarantees
+- Daily posting
+- Lead generation promises
+
+CONTACT SECTION
+- Short reassuring intro
+- Simple contact form (name, email, message)
+- Placeholder link for calendar booking
+- No pressure language
+
+FOOTER
+- Minimal
+- Business name
+- Placeholder links to Privacy Policy and Terms
+
+COPY RULES
+- Short sentences
+- Short paragraphs
+- Plain Australian English
+- Avoid words like “leverage”, “synergy”, “scale”, “growth hacking”
+- Prefer clarity over persuasion
+
+OUTPUT REQUIREMENTS
+- Output ONLY the complete HTML file
+- Include Tailwind CDN link in <head>
+- Use clean, semantic HTML
+- Use Tailwind utility classes sparingly
+- No additional explanations or commentary
+
+FINAL CHECK
+The page should make a founder think:
+“Okay, this feels safe, simple, and sensible.”
+
+If anything feels like marketing, remove it.
+If anything adds complexity, remove it.
+If anything doesn’t reduce doubt, remove it.
