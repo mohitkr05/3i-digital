@@ -5,7 +5,7 @@ export default function Testimonial() {
         <div className="bg-white rounded-2xl p-10 md:p-16 border border-gray-200 shadow-sm">
           <div className="max-w-3xl mx-auto">
             <p className="text-2xl md:text-3xl text-gray-900 mb-8 leading-relaxed font-medium">
-              "We have seen a significant improvement in our digital presence and the general flow of our systems. I believe this has contributed significantly to the growth of our business. Many thanks, 3I Digital."
+              &quot;We have seen a significant improvement in our digital presence and the general flow of our systems. I believe this has contributed significantly to the growth of our business. Many thanks, 3I Digital.&quot;
             </p>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 font-semibold">

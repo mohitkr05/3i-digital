@@ -29,7 +29,7 @@ export default function Hero() {
               href="#contact"
               className="inline-block bg-gray-900 text-white px-10 py-4 text-base font-medium rounded-full hover:bg-gray-800 transition-all duration-300 shadow-sm hover:shadow-lg"
             >
-              Let's talk
+              Let&apos;s talk
             </Link>
             <Link
               href="#problems"

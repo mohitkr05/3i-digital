@@ -52,7 +52,7 @@ export default function WhatWeManage() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-3xl mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white leading-tight">
-            We don't just manage tasks — we manage outcomes.
+            We don&apos;t just manage tasks — we manage outcomes.
           </h2>
           <p className="text-xl text-gray-300 leading-relaxed">
             Your digital presence is critical to growth. We take full ownership

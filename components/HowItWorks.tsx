@@ -75,7 +75,7 @@ export default function HowItWorks() {
           How It Works
         </h2>
         <p className="text-lg text-gray-600 text-center mb-16 max-w-2xl mx-auto">
-          Clear. Fast. Results-driven. Let's build momentum.
+          Clear. Fast. Results-driven. Let&apos;s build momentum.
         </p>
 
         {/* Flow Container */}

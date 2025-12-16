@@ -17,7 +17,7 @@ export default function About() {
           </p>
 
           <p>
-            Most agencies promise explosive growth and massive scale. That's not
+            Most agencies promise explosive growth and massive scale. That&apos;s not
             us. We promise something more valuable:{" "}
             <span className="font-medium text-gray-900">peace of mind</span>.
           </p>
@@ -41,7 +41,7 @@ export default function About() {
               Our promise is simple:
             </p>
             <p className="text-gray-600">
-              You'll always know what's happening, you'll never chase us for
+              You&apos;ll always know what&apos;s happening, you&apos;ll never chase us for
               updates, and your digital presence will quietly work in the
               background while you focus on what you do best.
             </p>

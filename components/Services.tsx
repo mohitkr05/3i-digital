@@ -3,7 +3,7 @@ export default function Services() {
     <section className="bg-white py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-semibold mb-16 text-gray-900">
-          What's Included (and What's Not)
+          What&apos;s Included (and What&apos;s Not)
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">

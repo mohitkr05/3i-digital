@@ -17,7 +17,7 @@ export default function WhoItsFor() {
             <ul className="space-y-4 text-lg text-gray-600 leading-relaxed">
               <li>Are a founder or small team</li>
               <li>Want things handled quietly</li>
-              <li>Don't want to manage tools</li>
+              <li>Don&apos;t want to manage tools</li>
             </ul>
           </div>
 

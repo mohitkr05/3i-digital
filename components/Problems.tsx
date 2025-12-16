@@ -25,7 +25,7 @@ export default function Problems() {
             Building a business is tough.
           </h2>
           <p className="text-2xl md:text-3xl text-gray-300 font-medium">
-            Choosing the right partner shouldn't be.
+            Choosing the right partner shouldn&apos;t be.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">

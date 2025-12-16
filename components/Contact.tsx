@@ -8,7 +8,7 @@ export default function Contact() {
           Get in Touch
         </h2>
         <p className="text-lg md:text-xl text-gray-600 mb-12 leading-relaxed max-w-2xl mx-auto">
-          Book a short call to see if we're a good fit. No pressure, no hard sell.
+          Book a short call to see if we&apos;re a good fit. No pressure, no hard sell.
         </p>
 
         <Link
